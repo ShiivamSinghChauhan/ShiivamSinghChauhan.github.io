@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shivam Singh Chauhan — Generative AI Engineer</title>
+<meta name="description" content="Shivam Singh Chauhan — Generative AI Engineer (B.Tech CSE 2026, Noida). I build RAG systems, AI agents, LLM guardrails and evaluation pipelines. Open to AI engineer roles, can join immediately.">
+<meta name="author" content="Shivam Singh Chauhan">
+<link rel="canonical" href="https://shiivamsinghchauhan.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shiivamsinghchauhan.github.io/">
+<meta property="og:title" content="Shivam Singh Chauhan — Generative AI Engineer">
+<meta property="og:description" content="RAG that checks its own answers, an LLM guardrails gateway, tool-calling agents. Open to AI engineer roles — can join immediately.">
+<meta property="og:image" content="https://shiivamsinghchauhan.github.io/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0d12">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%235b8cff'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='26' fill='white' text-anchor='middle'%3ESC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Shivam Singh Chauhan","jobTitle":"Generative AI Engineer","url":"https://shiivamsinghchauhan.github.io/","email":"mailto:shivamsinghchauhan672@gmail.com","telephone":"+91-7351279348","address":{"@type":"PostalAddress","addressLocality":"Noida","addressRegion":"Uttar Pradesh","addressCountry":"IN"},"alumniOf":"Greater Noida Institute of Technology","sameAs":["https://github.com/ShiivamSinghChauhan","https://www.linkedin.com/in/shiivamsinghchauhan"],"knowsAbout":["Generative AI","Retrieval-Augmented Generation","AI Agents","LangGraph","LLM Guardrails","LLM Evaluation"]}
+</script>
+<style>
+:root{--bg:#0b0d12;--bg2:#11141b;--card:#151922;--line:#232938;--ink:#e8ebf2;--mute:#9aa3b5;--acc:#5b8cff;--acc2:#36d399;--chip:#1b2130;--warn:#f5b84b}
+:root[data-theme="light"]{--bg:#f7f8fb;--bg2:#eef1f6;--card:#ffffff;--line:#dfe3ec;--ink:#141824;--mute:#5a6375;--acc:#2f5bd3;--acc2:#0f8a55;--chip:#eef1f7;--warn:#a86a00}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f7f8fb;--bg2:#eef1f6;--card:#ffffff;--line:#dfe3ec;--ink:#141824;--mute:#5a6375;--acc:#2f5bd3;--acc2:#0f8a55;--chip:#eef1f7;--warn:#a86a00}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header.top{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.logo{font-weight:800;color:var(--ink);letter-spacing:-.01em}
+.logo span{color:var(--acc)}
+nav.links{display:flex;gap:20px;align-items:center;font-size:14.5px}
+nav.links a{color:var(--mute)}
+nav.links a:hover{color:var(--ink);text-decoration:none}
+.tbtn{background:none;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:5px 9px;cursor:pointer;font:inherit;font-size:14px}
+.hero{padding:84px 0 56px}
+.status{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;color:var(--acc2);background:color-mix(in srgb,var(--acc2) 12%,transparent);border:1px solid color-mix(in srgb,var(--acc2) 35%,transparent);padding:5px 12px;border-radius:999px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--acc2);box-shadow:0 0 0 0 var(--acc2);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--acc2) 60%,transparent)}70%{box-shadow:0 0 0 9px transparent}100%{box-shadow:0 0 0 0 transparent}}
+h1{font-size:clamp(34px,5.4vw,58px);line-height:1.08;letter-spacing:-.03em;margin:22px 0 10px;font-weight:800}
+h1 .grad{background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.role{font-size:19px;color:var(--mute);margin:0 0 8px}
+.lead{font-size:18.5px;max-width:720px;margin:18px 0 28px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:10px;font-weight:600;font-size:15px;border:1px solid var(--line);color:var(--ink);background:var(--card)}
+.btn:hover{text-decoration:none;border-color:var(--acc)}
+.btn.primary{background:var(--acc);border-color:var(--acc);color:#fff}
+.btn svg{width:18px;height:18px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:26px;color:var(--mute);font-size:14.5px}
+.facts b{color:var(--ink);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:8px 0 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.stat .n{font-size:30px;font-weight:800;letter-spacing:-.02em;font-family:"JetBrains Mono",monospace}
+.stat .l{color:var(--mute);font-size:13.5px;line-height:1.45;margin-top:4px}
+section{padding:64px 0 8px}
+.eyebrow{font-family:"JetBrains Mono",monospace;color:var(--acc);font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+h2{font-size:clamp(26px,3.4vw,34px);letter-spacing:-.02em;margin:6px 0 10px}
+.sub{color:var(--mute);max-width:700px;margin:0 0 26px}
+.proj{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;margin:0 0 22px}
+.proj-h{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.proj h3{margin:0;font-size:23px;letter-spacing:-.01em}
+.date{font-family:"JetBrains Mono",monospace;font-size:12.5px;color:var(--mute)}
+.tag{display:inline-block;font-size:12px;font-weight:600;color:var(--warn);border:1px solid color-mix(in srgb,var(--warn) 45%,transparent);border-radius:6px;padding:1px 7px;margin-left:8px;vertical-align:middle}
+.problem{color:var(--mute);margin:8px 0 18px;font-size:16px}
+.grid2{display:grid;grid-template-columns:1.25fr 1fr;gap:26px}
+.proj ul{margin:0;padding-left:18px}
+.proj li{margin:6px 0}
+.res{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 0}
+.res div{background:var(--chip);border-radius:10px;padding:8px 12px;font-size:13.5px;color:var(--mute)}
+.res b{display:block;color:var(--acc2);font-family:"JetBrains Mono",monospace;font-size:19px}
+.flow{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:16px}
+.flow .ft{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--mute);margin-bottom:10px;text-transform:uppercase;letter-spacing:.06em}
+.step{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.45;position:relative;padding:0 0 14px}
+.step:not(:last-child)::after{content:"";position:absolute;left:11px;top:24px;bottom:2px;width:2px;background:var(--line)}
+.step i{flex:none;width:24px;height:24px;border-radius:50%;background:var(--chip);border:1px solid var(--line);font-style:normal;font-size:11.5px;font-weight:700;display:flex;align-items:center;justify-content:center;color:var(--acc)}
+.step.loop i{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 50%,transparent)}
+.step em{font-style:normal;color:var(--mute)}
+.stack{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px}
+.chip{font-family:"JetBrains Mono",monospace;font-size:12.5px;background:var(--chip);border:1px solid var(--line);border-radius:6px;padding:3px 8px;color:var(--ink)}
+.plinks{display:flex;gap:16px;margin-top:16px;font-weight:600;font-size:14.5px}
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.sk{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.sk h4{margin:0 0 10px;font-size:15px}
+.sk .stack{margin-top:0}
+.how{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.how div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.how h4{margin:0 0 6px;font-size:16.5px}
+.how p{margin:0;color:var(--mute);font-size:15px}
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.edu > div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.edu h4{margin:0 0 4px;font-size:16.5px}
+.edu p{margin:2px 0;color:var(--mute);font-size:15px}
+.contact{background:linear-gradient(135deg,color-mix(in srgb,var(--acc) 16%,var(--card)),var(--card));border:1px solid var(--line);border-radius:20px;padding:36px;margin:10px 0 0}
+.contact h2{margin-top:0}
+.clist{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:22px}
+.clist a{display:flex;gap:12px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;color:var(--ink);font-weight:500;word-break:break-word}
+.clist a:hover{border-color:var(--acc);text-decoration:none}
+.clist small{display:block;color:var(--mute);font-weight:400;font-size:12.5px}
+.clist svg{flex:none;width:22px;height:22px;color:var(--acc)}
+footer{color:var(--mute);font-size:13.5px;padding:40px 0 50px;text-align:center}
+@media (max-width:860px){
+ .grid2,.skills,.how,.edu,.clist{grid-template-columns:1fr}
+ .stats{grid-template-columns:repeat(2,1fr)}
+ nav.links a.hide-m{display:none}
+ .hero{padding:52px 0 40px}
+ .proj{padding:20px}
+ .contact{padding:24px}
+}
+@media print{header.top,.tbtn,.cta{display:none}body{background:#fff;color:#000}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="#">Shivam<span>.</span></a>
+  <nav class="links">
+    <a href="#projects">Projects</a>
+    <a href="#skills" class="hide-m">Skills</a>
+    <a href="#education" class="hide-m">Education</a>
+    <a href="#contact">Contact</a>
+    <button class="tbtn" id="theme" aria-label="Switch light or dark theme">◐</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+<section class="hero" style="padding-top:72px">
+  <span class="status"><span class="dot"></span>Open to AI / GenAI engineer roles · can join immediately</span>
+  <h1>Hi, I'm Shivam.<br><span class="grad">I build LLM systems that check their own work.</span></h1>
+  <p class="role">Generative AI Engineer · B.Tech CSE (2026) · Noida, India</p>
+  <p class="lead">I work on the parts that make LLM apps reliable: retrieval that finds the right text, answers verified against their sources, guardrails that block attacks, and evaluation and tracing to prove it all works.</p>
+  <div class="cta">
+    <a class="btn primary" href="Shivam_Singh_Chauhan_Resume.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14"/></svg>Download resume</a>
+    <a class="btn" href="mailto:shivamsinghchauhan672@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Email me</a>
+    <a class="btn" href="https://github.com/ShiivamSinghChauhan" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 00-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 015.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0012 .5z"/></svg>GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/shiivamsinghchauhan" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z"/></svg>LinkedIn</a>
+  </div>
+  <div class="facts">
+    <span><b>Fresher</b> · B.Tech CSE, GNIOT, 2026</span>
+    <span><b>Location</b> · Noida / Delhi NCR, open to remote &amp; hybrid</span>
+    <span><b>Notice period</b> · none, can join immediately</span>
+  </div>
+</section>
+
+<div class="stats">
+  <div class="stat"><div class="n">96.6%</div><div class="l">answer accuracy on a 29-question test set — Self-Healing RAG</div></div>
+  <div class="stat"><div class="n">100%</div><div class="l">retrieval recall on the same test set (hybrid search + reranker)</div></div>
+  <div class="stat"><div class="n">0.66→0.80</div><div class="l">prompt-attack recall after adding Prompt-Guard-2 — Guardrails Gateway</div></div>
+  <div class="stat"><div class="n">3.3%</div><div class="l">false-positive rate on 80 test prompts — normal users rarely blocked</div></div>
+</div>
+
+<section id="projects">
+  <div class="eyebrow">Projects</div>
+  <h2>What I've built</h2>
+  <p class="sub">Each project is end to end: the problem, how it works, and how I measured it. All the code is public on GitHub.</p>
+
+  <article class="proj">
+    <div class="proj-h"><h3>Self-Healing RAG <span class="tag">Featured</span></h3><span class="date">09/2026</span></div>
+    <p class="problem"><b>Problem:</b> normal RAG answers confidently even when the retrieved text doesn't support the answer.</p>
+    <div class="grid2">
+      <div>
+        <ul>
+          <li>Built a document Q&amp;A system that <b>checks its own answers</b>: a critic verifies each answer against the retrieved text.</li>
+          <li>If an answer isn't supported, the system <b>rewrites the query and retries</b> in a LangGraph loop, instead of returning a guess.</li>
+          <li>Combined ChromaDB vector search with BM25 keyword search, then a <b>cross-encoder reranker</b> to keep the best chunks.</li>
+        </ul>
+        <div class="res"><div><b>96.6%</b>answer accuracy</div><div><b>100%</b>retrieval recall</div><div><b>29</b>hand-written test questions</div></div>
+      </div>
+      <div class="flow"><div class="ft">How it works</div>
+        <div class="step"><i>1</i><span>Question comes in</span></div>
+        <div class="step"><i>2</i><span>Hybrid retrieval <em>— ChromaDB vectors + BM25</em></span></div>
+        <div class="step"><i>3</i><span>Cross-encoder reranks the chunks</span></div>
+        <div class="step"><i>4</i><span>LLM writes a grounded answer</span></div>
+        <div class="step"><i>5</i><span>Critic checks: is every claim supported?</span></div>
+        <div class="step loop"><i>↺</i><span>Not supported → rewrite the query, retrieve again</span></div>
+        <div class="step"><i>✓</i><span>Verified answer is returned</span></div>
+      </div>
+    </div>
+    <div class="stack"><span class="chip">LangGraph</span><span class="chip">LangChain</span><span class="chip">ChromaDB</span><span class="chip">BM25</span><span class="chip">Hugging Face</span><span class="chip">Streamlit</span></div>
+    <div class="plinks"><a href="https://github.com/ShiivamSinghChauhan/self-healing-rag" target="_blank" rel="noopener">View code on GitHub →</a></div>
+  </article>
+
+  <article class="proj">
+    <div class="proj-h"><h3>LLM Guardrails Gateway</h3><span class="date">07/2026</span></div>
+    <p class="problem"><b>Problem:</b> apps that send user text straight to an LLM are open to prompt injection, jailbreaks and personal-data leaks.</p>
+    <div class="grid2">
+      <div>
+        <ul>
+          <li>Built a <b>FastAPI gateway</b> that sits in front of the LLM: it blocks prompt injection, jailbreaks and PII, and flags policy violations in outputs.</li>
+          <li>Added Meta's <b>Prompt-Guard-2</b> classifier on top of regex rules, raising attack recall while keeping false positives low.</li>
+          <li>Used <b>Redis</b> for per-key rate limiting and for caching guard decisions, so repeated prompts skip the classifier.</li>
+          <li>Policies are <b>YAML files editable at runtime</b>, with audit logging and a <code>/metrics</code> endpoint for block rate and p50/p99 latency.</li>
+        </ul>
+        <div class="res"><div><b>0.66→0.80</b>attack recall</div><div><b>3.3%</b>false positives</div><div><b>80</b>test prompts</div></div>
+      </div>
+      <div class="flow"><div class="ft">Request path</div>
+        <div class="step"><i>1</i><span>Request arrives with an API key</span></div>
+        <div class="step"><i>2</i><span>Rate limit per key <em>— Redis</em></span></div>
+        <div class="step"><i>3</i><span>Input guards <em>— regex + Prompt-Guard-2 + PII check</em></span></div>
+        <div class="step"><i>4</i><span>Safe prompt goes to the LLM</span></div>
+        <div class="step"><i>5</i><span>Output checked against YAML policies</span></div>
+        <div class="step"><i>6</i><span>Decision written to the audit log and /metrics</span></div>
+      </div>
+    </div>
+    <div class="stack"><span class="chip">FastAPI</span><span class="chip">LangGraph</span><span class="chip">Prompt-Guard-2</span><span class="chip">Redis</span><span class="chip">Pydantic</span></div>
+    <div class="plinks"><a href="https://github.com/ShiivamSinghChauhan/llm-guardrails-gateway" target="_blank" rel="noopener">View code on GitHub →</a></div>
+  </article>
+
+  <article class="proj">
+    <div class="proj-h"><h3>Agentic RAG Chatbot</h3><span class="date">06/2026</span></div>
+    <p class="problem"><b>Problem:</b> a chatbot that only knows its training data can't answer from your PDFs or live information.</p>
+    <div class="grid2">
+      <div>
+        <ul>
+          <li>Built a chatbot with <b>streaming replies</b> and <b>saved chat threads</b> using LangGraph's PostgreSQL checkpointer.</li>
+          <li>Turned it into a <b>tool-calling agent</b> that chooses between web search, APIs and uploaded PDFs indexed in FAISS.</li>
+          <li>Used <b>LangSmith traces</b> to debug the agent's tool choices, and measured answer quality with <b>RAGAS</b>.</li>
+        </ul>
+      </div>
+      <div class="flow"><div class="ft">How it works</div>
+        <div class="step"><i>1</i><span>User message, with the thread's saved history</span></div>
+        <div class="step"><i>2</i><span>Agent decides which tool it needs</span></div>
+        <div class="step"><i>3</i><span>Web search · APIs · PDF search <em>— FAISS</em></span></div>
+        <div class="step"><i>4</i><span>Reply streams back token by token</span></div>
+        <div class="step"><i>5</i><span>State saved to PostgreSQL · traced in LangSmith</span></div>
+      </div>
+    </div>
+    <div class="stack"><span class="chip">LangGraph</span><span class="chip">FAISS</span><span class="chip">PostgreSQL</span><span class="chip">LangSmith</span><span class="chip">RAGAS</span><span class="chip">Streamlit</span></div>
+    <div class="plinks"><a href="https://github.com/ShiivamSinghChauhan/Agentic-RAG-Chatbot" target="_blank" rel="noopener">View code on GitHub →</a></div>
+  </article>
+
+  <article class="proj">
+    <div class="proj-h"><h3>Customer Feedback Classifier</h3><span class="date">12/2025</span></div>
+    <p class="problem"><b>Problem:</b> LLM output is unreliable for software — one malformed JSON breaks the pipeline.</p>
+    <div class="grid2">
+      <div>
+        <ul>
+          <li>Classifies customer feedback into a <b>typed Pydantic schema</b>: sentiment, 8 categories, urgency, bounded confidence, summary and action items.</li>
+          <li>Built a <b>self-correcting loop</b> in LangGraph: when the parser rejects the LLM's output, the validation error is sent back and the model repairs its own JSON.</li>
+          <li>A second LCEL chain turns stored results into a validated <b>insights report</b> — risks, wins, trends and actions — served through FastAPI and a Streamlit dashboard.</li>
+        </ul>
+      </div>
+      <div class="flow"><div class="ft">How it works</div>
+        <div class="step"><i>1</i><span>Feedback text comes in</span></div>
+        <div class="step"><i>2</i><span>LCEL chain with few-shot prompt</span></div>
+        <div class="step"><i>3</i><span>Pydantic parser validates the JSON</span></div>
+        <div class="step loop"><i>↺</i><span>Invalid → error sent back, model fixes its output</span></div>
+        <div class="step"><i>4</i><span>Saved to SQLite → dashboard + insights report</span></div>
+      </div>
+    </div>
+    <div class="stack"><span class="chip">LangChain (LCEL)</span><span class="chip">LangGraph</span><span class="chip">Pydantic</span><span class="chip">FastAPI</span><span class="chip">SQLite</span><span class="chip">Streamlit</span></div>
+    <div class="plinks"><a href="https://github.com/ShiivamSinghChauhan/sentiment-classifier" target="_blank" rel="noopener">View code on GitHub →</a></div>
+  </article>
+</section>
+
+<section id="approach">
+  <div class="eyebrow">How I work</div>
+  <h2>Three habits in every project</h2>
+  <div class="how">
+    <div><h4>Measure, don't guess</h4><p>I write a test set first and report real numbers — accuracy, recall, false positives — instead of "it looks good".</p></div>
+    <div><h4>Make it observable</h4><p>Traces for every step (LangSmith), audit logs and latency metrics, so I can see exactly where a system fails.</p></div>
+    <div><h4>Plan for failure</h4><p>Self-checks, retries, validation and guardrails, so a bad model output is caught before a user sees it.</p></div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="eyebrow">Skills</div>
+  <h2>Tools I use</h2>
+  <div class="skills">
+    <div class="sk"><h4>GenAI &amp; LLMs</h4><div class="stack"><span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">AI Agents</span><span class="chip">Tool Calling</span><span class="chip">Structured Output (Pydantic)</span><span class="chip">Prompt Engineering</span></div></div>
+    <div class="sk"><h4>RAG</h4><div class="stack"><span class="chip">Chunking Strategies</span><span class="chip">Hybrid Search (BM25 + Vector)</span><span class="chip">Reranking</span><span class="chip">Query Rewriting</span><span class="chip">Metadata Filtering</span></div></div>
+    <div class="sk"><h4>Evaluation &amp; Safety</h4><div class="stack"><span class="chip">RAGAS</span><span class="chip">LLM-as-a-Judge</span><span class="chip">Guardrails AI</span><span class="chip">LangSmith (Tracing)</span></div></div>
+    <div class="sk"><h4>NLP &amp; ML</h4><div class="stack"><span class="chip">Transformers</span><span class="chip">Tokenization</span><span class="chip">Embeddings</span><span class="chip">Hugging Face</span><span class="chip">NumPy</span><span class="chip">Pandas</span></div></div>
+    <div class="sk"><h4>Vector DBs &amp; Databases</h4><div class="stack"><span class="chip">ChromaDB</span><span class="chip">FAISS</span><span class="chip">Pinecone</span><span class="chip">PostgreSQL</span><span class="chip">SQLite</span><span class="chip">Redis</span></div></div>
+    <div class="sk"><h4>Languages, Backend &amp; Tools</h4><div class="stack"><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">FastAPI</span><span class="chip">Streamlit</span><span class="chip">Docker</span><span class="chip">Git</span><span class="chip">Groq / OpenAI APIs</span></div></div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="eyebrow">Education</div>
+  <h2>Education &amp; certifications</h2>
+  <div class="edu">
+    <div><h4>B.Tech, Computer Science &amp; Engineering</h4><p>Greater Noida Institute of Technology (GNIOT)</p><p>2022 – 2026 · CGPA 6.7/10</p><p style="margin-top:10px">Class XII: 88% (2021) · Class X: 86.5% (2019)</p></div>
+    <div><h4>Certifications</h4>
+      <p><b style="color:var(--ink)">Advanced RAG</b> — CampusX, 07/2026 · <a href="https://learnwith.campusx.in/share-certificate?serialno=KZ9O8VZS" target="_blank" rel="noopener">verify</a></p>
+      <p style="margin-top:8px"><b style="color:var(--ink)">Data Science with Python</b> — E&amp;ICT Academy, IIT Kanpur, Jul–Aug 2025 · <a href="https://verify.eicta.digitalcredentials.in/01ff7ec7-a52e-4b1b-ab47-54d7fc00816c" target="_blank" rel="noopener">verify</a></p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <div class="eyebrow">Contact</div>
+    <h2>Let's talk</h2>
+    <p class="sub" style="margin:0">I'm looking for a Generative AI / AI engineer role. I can join immediately, in Noida / Delhi NCR or remote. The fastest way to reach me is email.</p>
+    <div class="clist">
+      <a href="mailto:shivamsinghchauhan672@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span><small>Email</small>shivamsinghchauhan672@gmail.com</span></a>
+      <a href="tel:+917351279348"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1 1 .4 1.9.7 2.8a2 2 0 01-.5 2.1L8 9.9a16 16 0 006 6l1.3-1.3a2 2 0 012.1-.4c.9.3 1.8.6 2.8.7a2 2 0 011.7 2z"/></svg><span><small>Phone</small>+91 73512 79348</span></a>
+      <a href="https://www.linkedin.com/in/shiivamsinghchauhan" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z"/></svg><span><small>LinkedIn</small>in/shiivamsinghchauhan</span></a>
+      <a href="https://github.com/ShiivamSinghChauhan" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 00-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 015.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0012 .5z"/></svg><span><small>GitHub</small>ShiivamSinghChauhan</span></a>
+    </div>
+  </div>
+</section>
+</main>
+<footer>© 2026 Shivam Singh Chauhan · Noida, India · <a href="Shivam_Singh_Chauhan_Resume.pdf" download>Resume (PDF)</a></footer>
+<script>
+(function(){
+ var r=document.documentElement;
+ try{var t=localStorage.getItem('theme');if(t)r.dataset.theme=t}catch(e){}
+ document.getElementById('theme').addEventListener('click',function(){
+  var cur=r.dataset.theme||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');
+  r.dataset.theme=cur==='dark'?'light':'dark';
+  try{localStorage.setItem('theme',r.dataset.theme)}catch(e){}
+ });
+})();
+</script>
+</body>
+</html>

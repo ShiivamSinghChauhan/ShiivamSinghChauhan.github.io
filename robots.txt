@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shiivamsinghchauhan.github.io/sitemap.xml
