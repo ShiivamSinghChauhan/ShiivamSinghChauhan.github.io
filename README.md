@@ -1,5 +1,5 @@
 # Portfolio — Shivam Singh Chauhan
 
-Live: https://shiivamsinghchauhan.github.io
+Live: https://shivamsinghchauhan.in
 
 Static single page (index.html). Edit and push to update.
