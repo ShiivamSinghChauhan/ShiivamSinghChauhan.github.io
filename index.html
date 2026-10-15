@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Shivam Singh Chauhan","jobTitle":"AIML Engineer | Generative AI Engineer","url":"https://shivamsinghchauhan.in/","email":"mailto:shivamsinghchauhan672@gmail.com","telephone":"+91-7351279348","address":{"@type":"PostalAddress","addressLocality":"Noida","addressRegion":"Uttar Pradesh","addressCountry":"IN"},"alumniOf":"Greater Noida Institute of Technology","sameAs":["https://github.com/ShiivamSinghChauhan","https://www.linkedin.com/in/shiivamsinghchauhan"],"knowsAbout":["Generative AI","Retrieval-Augmented Generation","AI Agents","LangGraph","LLM Guardrails","LLM Evaluation"]}
+{"@context":"https://schema.org","@type":"Person","name":"Shivam Singh Chauhan","jobTitle":"AIML Engineer | Generative AI Engineer","image":"https://shivamsinghchauhan.in/shivam.jpg","url":"https://shivamsinghchauhan.in/","email":"mailto:shivamsinghchauhan672@gmail.com","telephone":"+91-7351279348","address":{"@type":"PostalAddress","addressLocality":"Noida","addressRegion":"Uttar Pradesh","addressCountry":"IN"},"alumniOf":"Greater Noida Institute of Technology","sameAs":["https://github.com/ShiivamSinghChauhan","https://www.linkedin.com/in/shiivamsinghchauhan"],"knowsAbout":["Generative AI","Retrieval-Augmented Generation","AI Agents","LangGraph","LLM Guardrails","LLM Evaluation"]}
 </script>
 <style>
 :root{--bg:#0b0d12;--bg2:#11141b;--card:#151922;--line:#232938;--ink:#e8ebf2;--mute:#9aa3b5;--acc:#5b8cff;--acc2:#36d399;--chip:#1b2130;--warn:#f5b84b}
@@ -47,7 +47,10 @@ h1{font-size:clamp(32px,4.6vw,50px);line-height:1.1;letter-spacing:-.03em;margin
 .tagline{font-size:clamp(21px,2.6vw,30px);line-height:1.25;font-weight:700;letter-spacing:-.015em;margin:0 0 16px}
 .grad{background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
 .role{font-size:17.5px;color:var(--mute);margin:0 0 6px}
-.lead{font-size:17.5px;max-width:680px;margin:20px 0 30px;color:var(--mute)}
+.lead{font-size:15.5px;line-height:1.7;max-width:640px;margin:18px 0 30px;color:var(--mute)}
+.hgrid{display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:48px;align-items:center}
+.photo{width:270px;aspect-ratio:1;border-radius:28px;padding:3px;background:linear-gradient(140deg,var(--acc),var(--acc2));box-shadow:0 18px 50px -22px color-mix(in srgb,var(--acc) 55%,transparent)}
+.photo img{display:block;width:100%;height:100%;object-fit:cover;border-radius:25px;background:var(--card)}
 .cta{display:flex;flex-wrap:wrap;gap:12px}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:10px;font-weight:600;font-size:15px;border:1px solid var(--line);color:var(--ink);background:var(--card)}
 .btn:hover{text-decoration:none;border-color:var(--acc)}
@@ -114,6 +117,9 @@ footer{color:var(--mute);font-size:13.5px;padding:40px 0 50px;text-align:center}
  .stats{grid-template-columns:repeat(2,1fr)}
  nav.links a.hide-m{display:none}
  .hero{padding:52px 0 40px}
+ .hgrid{grid-template-columns:1fr;gap:0}
+ .photo{order:-1;width:112px;border-radius:50%;padding:2px;margin-bottom:6px}
+ .photo img{border-radius:50%}
  .proj{padding:20px}
  .contact{padding:24px}
 }
@@ -134,6 +140,7 @@ footer{color:var(--mute);font-size:13.5px;padding:40px 0 50px;text-align:center}
 
 <main class="wrap">
 <section class="hero" style="padding-top:72px">
+  <div class="hgrid"><div>
   <span class="status"><span class="dot"></span>Open to AI / GenAI engineer roles · can join immediately</span>
   <h1>Hi, I'm Shivam Singh Chauhan.</h1>
   <p class="tagline"><span class="grad">I build AI agents and LLM systems that check their own work.</span></p>
@@ -145,12 +152,15 @@ footer{color:var(--mute);font-size:13.5px;padding:40px 0 50px;text-align:center}
     <a class="btn" href="https://github.com/ShiivamSinghChauhan" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 00-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 015.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0012 .5z"/></svg>GitHub</a>
     <a class="btn" href="https://www.linkedin.com/in/shiivamsinghchauhan" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z"/></svg>LinkedIn</a>
   </div>
+  </div>
+  <div class="photo"><picture><source srcset="shivam.webp" type="image/webp"><img src="shivam.jpg" alt="Shivam Singh Chauhan" width="270" height="270" fetchpriority="high"></picture></div>
+  </div>
   <div class="facts">
     <span><b>Fresher</b> · B.Tech CSE, GNIOT, 2026</span>
     <span><b>Location</b> · Noida / Delhi NCR, open to remote &amp; hybrid</span>
     <span><b>Notice period</b> · none, can join immediately</span>
   </div>
-  <div class="core"><span>Core stack</span><span class="chip">Python</span><span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">RAG</span><span class="chip">AI Agents</span><span class="chip">FastAPI</span><span class="chip">RAGAS / LLM-as-a-Judge</span><span class="chip">Guardrails</span><span class="chip">Vector DBs</span></div>
+  <div class="core"><span>Core stack</span><span class="chip">Python</span><span class="chip">Machine Learning</span><span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">RAG</span><span class="chip">AI Agents</span><span class="chip">FastAPI</span><span class="chip">RAGAS / LLM-as-a-Judge</span><span class="chip">Guardrails</span><span class="chip">Vector DBs</span></div>
 </section>
 
 <div class="stats">
@@ -280,7 +290,7 @@ footer{color:var(--mute);font-size:13.5px;padding:40px 0 50px;text-align:center}
   <div class="skills">
     <div class="sk"><h4>GenAI &amp; LLMs</h4><div class="stack"><span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">AI Agents</span><span class="chip">Tool Calling</span><span class="chip">Structured Output</span><span class="chip">Prompt Engineering</span></div></div>
     <div class="sk"><h4>RAG</h4><div class="stack"><span class="chip">Chunking Strategies</span><span class="chip">Hybrid Search (BM25 + Vector)</span><span class="chip">Reranking</span><span class="chip">Query Rewriting</span><span class="chip">Metadata Filtering</span><span class="chip">Multi-modal RAG</span></div></div>
-    <div class="sk"><h4>Evaluation &amp; Safety</h4><div class="stack"><span class="chip">RAGAS</span><span class="chip">LLM-as-a-Judge</span><span class="chip">Guardrails AI</span><span class="chip">LangSmith (Tracing)</span></div></div>
+    <div class="sk"><h4>Evaluation &amp; Safety</h4><div class="stack"><span class="chip">RAGAS</span><span class="chip">DeepEval</span><span class="chip">LLM-as-a-Judge</span><span class="chip">Guardrails AI</span><span class="chip">LangSmith (Tracing)</span></div></div>
     <div class="sk"><h4>NLP, ML &amp; Deep Learning</h4><div class="stack"><span class="chip">Machine Learning</span><span class="chip">Deep Learning</span><span class="chip">PyTorch</span><span class="chip">Transformers</span><span class="chip">Tokenization</span><span class="chip">Embeddings</span><span class="chip">Hugging Face</span><span class="chip">NumPy</span><span class="chip">Pandas</span></div></div>
     <div class="sk"><h4>Vector DBs &amp; Databases</h4><div class="stack"><span class="chip">ChromaDB</span><span class="chip">FAISS</span><span class="chip">Pinecone</span><span class="chip">PostgreSQL</span><span class="chip">SQLite</span><span class="chip">Redis</span></div></div>
     <div class="sk"><h4>Languages, Backend &amp; Tools</h4><div class="stack"><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">FastAPI</span><span class="chip">Streamlit</span><span class="chip">Docker</span><span class="chip">Git</span><span class="chip">Pydantic</span><span class="chip">requests</span><span class="chip">Groq / OpenAI APIs</span></div></div>
